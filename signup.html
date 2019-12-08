@@ -17,7 +17,7 @@
                     
                 <div class="collapse navbar-collapse" id="navbarColor01">
                     <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active">
+                        <li class="nav-item">
                             <a class="nav-link" href="index.html">Leaderboards<span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
@@ -27,7 +27,7 @@
                                 <a class="nav-link" href="#">Highlights</a>
                         </li>
                         <li class="nav-item">
-                                <a class="nav-link" href="signup.html">SignUp/Login</a>
+                                <a class="nav-link active" href="signup.html">SignUp/Login</a>
                         </li>
                         <li class="nav-item">
                                 <a class="nav-link" href="about.html">About</a>
@@ -35,9 +35,31 @@
                         </ul>
                 </div>
             </nav>
-        <!-- intersting how this works!  -->
-        <input type="file" multiple>
-
+        <!-- Signup  -->
+        <div class="sidenav">
+            <div class="login-main-text">
+               <h2>League Profiles<br> Login Page</h2>
+               <p>Login or register from here to access.</p>
+            </div>
+         </div>
+         <div class="main">
+            <div class="col-md-6 col-sm-12">
+               <div class="login-form">
+                  <form>
+                     <div class="form-group">
+                        <label>User Name</label>
+                        <input type="text" class="form-control" placeholder="User Name">
+                     </div>
+                     <div class="form-group">
+                        <label>Password</label>
+                        <input type="password" class="form-control" placeholder="Password">
+                     </div>
+                     <button type="submit" class="btn btn-black">Login</button>
+                     <button type="submit" class="btn btn-secondary">Register</button>
+                  </form>
+               </div>
+            </div>
+         </div>
     </body>
 </html>
 
